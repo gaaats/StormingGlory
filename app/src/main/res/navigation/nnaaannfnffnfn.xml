@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nnaaannfnffnfn"
+    app:startDestination="@id/firrrrrtstFragment">
+
+    <fragment
+        android:id="@+id/firrrrrtstFragment"
+        android:name="com.rubygames.assassino.FirrrrrtstFragment"
+        android:label="fragment_firrrrrtst"
+        tools:layout="@layout/fragment_firrrrrtst" >
+        <action
+            android:id="@+id/action_firrrrrtstFragment_to_rulesssFragment"
+            app:destination="@id/rulesssFragment" />
+        <action
+            android:id="@+id/action_firrrrrtstFragment_to_plaaaayGaaameFragment"
+            app:destination="@id/plaaaayGaaameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesssFragment"
+        android:name="com.rubygames.assassino.RulesssFragment"
+        android:label="fragment_rulesss"
+        tools:layout="@layout/fragment_rulesss" />
+    <fragment
+        android:id="@+id/plaaaayGaaameFragment"
+        android:name="com.rubygames.assassino.PlaaaayGaaameFragment"
+        android:label="fragment_plaaaay_gaaame"
+        tools:layout="@layout/fragment_plaaaay_gaaame" >
+        <action
+            android:id="@+id/action_plaaaayGaaameFragment_to_nextLevelFragment"
+            app:destination="@id/nextLevelFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nextLevelFragment"
+        android:name="com.rubygames.assassino.NextLevelFragment"
+        android:label="fragment_next_level"
+        tools:layout="@layout/fragment_next_level" >
+        <action
+            android:id="@+id/action_nextLevelFragment_to_plaaaayGaaameFragment"
+            app:destination="@id/plaaaayGaaameFragment" />
+    </fragment>
+</navigation>
