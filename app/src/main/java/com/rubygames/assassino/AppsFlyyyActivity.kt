@@ -23,6 +23,7 @@ class AppsFlyyyActivity : AppCompatActivity() {
         val intenthjuuu = Intent(this@AppsFlyyyActivity, GaaameeeeActivity::class.java)
         Hawk.put(geogtgt, null)
         Hawk.put(countryCodegtgt, null)
+        Hawk.put(AllInOneClasss.appsCheckgtgt, null)
         startActivity(intenthjuuu)
         finish()
     }
@@ -64,6 +65,7 @@ class AppsFlyyyActivity : AppCompatActivity() {
         val intent = Intent(this@AppsFlyyyActivity, OpenPolicyyyActivity::class.java)
         Hawk.put(geogtgt, null)
         Hawk.put(countryCodegtgt, null)
+        Hawk.put(AllInOneClasss.appsCheckgtgt, null)
         startActivity(intent)
         finish()
     }
@@ -74,7 +76,7 @@ class AppsFlyyyActivity : AppCompatActivity() {
         val ftgtt: String = Hawk.get(geogtgt)
         val gtghylp: String = Hawk.get(countryCodegtgt, "null")
 
-        val deeplinkgtgt: String? = Hawk.get(DEEPLgttt, "null") //здесь нужен дефолтный ноль
+        val deeplinkgtgt: String? = Hawk.get(DEEPLgttt, "null")
         val appsChgtghy: String? = Hawk.get(appsCheckgtgt, "null")
         var namingghyh: String? = Hawk.get(C1rgttg)
 

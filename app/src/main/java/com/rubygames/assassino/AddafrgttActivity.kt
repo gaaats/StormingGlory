@@ -18,6 +18,7 @@ class AddafrgttActivity : AppCompatActivity() {
         val intentgtgttg = Intent(this@AddafrgttActivity, GaaameeeeActivity::class.java)
         Hawk.put(AllInOneClasss.geogtgt, null)
         Hawk.put(AllInOneClasss.countryCodegtgt, null)
+        Hawk.put(AllInOneClasss.appsCheckgtgt, null)
         startActivity(intentgtgttg)
         finish()
     }
